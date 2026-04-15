@@ -32,4 +32,13 @@ This way, an executable file named CKKS can be obtained:
  ./CKKS
 ```
 
+## Important Programs
+The important programs in FlipCKKS are as follows:
+- FlipCKKS-image.cpp:  In the image sharpening task, each coefficient of each polynomial of the ciphertext is flipped bit by bit to obtain the complete ciphertext error information. In addition, experiments with different scaling factors are also included in this program. Just need to modify the corresponding scaling factor, i.e., `scale_size`.
+- 
+- 
+
+
+
+
 
