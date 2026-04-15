@@ -4,3 +4,6 @@ FlipCKKS allows controlled fault injection (i.e., bit flips) during FHE evaluati
 
 In this repository, we provide the source code, configuration files, requirements, and partial data.
  
+# Details
+
+## Implementations of image sharpening
