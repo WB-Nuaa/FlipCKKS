@@ -18,5 +18,6 @@ cmake --build build
 
 # Install to system
 sudo cmake --install build
+```bash
 
 
