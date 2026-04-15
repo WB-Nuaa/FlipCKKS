@@ -7,7 +7,7 @@ In this repository, we provide the source code, configuration files, requirement
 FlipCKKS is developed upon the C++ Microsoft SEAL library (version 4.1.2). Therefore, you need to install a matching version of SEAL first, then compile FlipCKKS.
 
 ### Build and Install Microsoft SEAL
-In the Ubuntu system, open the terminal and execute the following command:
+In the Ubuntu system, open the terminal and execute the following commands:
 ```bash
 git clone  https://github.com/microsoft/SEAL.git
 cd SEAL
@@ -16,8 +16,20 @@ cd SEAL
 cmake -S . -B build
 cmake --build build
 
-# Install to system
+# Install to the system
 sudo cmake --install build
+```
+
+### Install FlipCKKS
+After creating the `CKKS` folder inside the SEAL `native` directory and copying all files into it. Then, open the terminal and execute the following commands:
 ```bash
+sudo cmake -S . -B build
+sudo cmake --build build
+```
+This way, an executable file named CKKS can be obtained:
+```bash
+ cd build/bin
+ ./CKKS
+```
 
 
